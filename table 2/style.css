@@ -1,0 +1,25 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    height: 500px;
+    width: 700px ;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color:rgb(124, 87, 87);
+}
+th{
+    background-color: black;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: azure;
+}
+body{
+    background-image: url(cool-code-aesthetic-cqzxsy3jp8y5w6xx.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
